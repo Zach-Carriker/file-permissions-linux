@@ -31,3 +31,34 @@ Multiple files and directories within the `projects` directory had incorrect per
 - Removed write permissions for **others** from `project_k.txt`:
   ```bash
   chmod o-w project_k.txt
+
+## 👁 Update Hidden File Permissions
+
+- Modified .project_x.txt to remove write permissions from both user and group, while allowing group read:
+'''bash
+chmod u-w,g+r,g-w .project_x.txt
+
+## 📂 Restrict Directory Access
+
+-Limited access to the drafts directory so only the researcher2 user can access it:
+'''bash
+chmod g-x drafts
+
+##📄 Summary
+
+-Established a permissions baseline using:
+'''bash
+ls -la
+
+
+-Used the chmod command to bring file and directory permissions in line with access control policies.
+
+-Explained the rationale behind each permission update to ensure transparency and understanding of Linux permission structures.
+
+##📎 Supporting Document
+
+###📄 File_Permissions_in_Linux.pdf
+
+This PDF includes detailed walkthroughs of each command and justification for the changes made.
+
+🗒️ This lab scenario was part of a hands-on exercise for practicing Linux access control management.
