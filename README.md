@@ -57,7 +57,7 @@ ls -la
 
 ##📎 Supporting Document
 
-###📄 File_Permissions_in_Linux.pdf
+###📄 
 
 This PDF includes detailed walkthroughs of each command and justification for the changes made.
 
