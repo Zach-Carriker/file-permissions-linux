@@ -44,7 +44,7 @@ chmod u-w,g+r,g-w .project_x.txt
 '''bash
 chmod g-x drafts
 
-##📄 Summary
+## 📄 Summary
 
 -Established a permissions baseline using:
 '''bash
@@ -55,9 +55,9 @@ ls -la
 
 -Explained the rationale behind each permission update to ensure transparency and understanding of Linux permission structures.
 
-##📎 Supporting Document
+## 📎 Supporting Document
 
-###[📄 File_Permissions_in_Linux.pdf](File_Permissions_in_Linux.pdf)
+### [📄 File_Permissions_in_Linux.pdf](File_Permissions_in_Linux.pdf)
 
 This PDF includes detailed walkthroughs of each command and justification for the changes made.
 
